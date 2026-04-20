@@ -1,0 +1,7 @@
+timestamp,stage,model_family,model_version,temperature,essay_id,prompt_path,output_path,notes
+2026-04-19T00:00:00-04:00,stage2,gemini,gemini-3.1-pro,default,essay004,prompts/02_refined_prompt_gemini.md,runs/stage2/gemini/essay004.json,tailored prompt with five baked-in rules and Gemini-specific emphasis
+2026-04-19T00:00:00-04:00,stage2,gemini,gemini-3.1-pro,default,essay005,prompts/02_refined_prompt_gemini.md,runs/stage2/gemini/essay005.json,tailored prompt with five baked-in rules and Gemini-specific emphasis
+2026-04-19T00:00:00-04:00,stage2,gemini,gemini-3.1-pro,default,essay006,prompts/02_refined_prompt_gemini.md,runs/stage2/gemini/essay006.json,tailored prompt with five baked-in rules and Gemini-specific emphasis
+2026-04-19T00:00:00-04:00,stage2,opus,claude-opus-4-7,default,essay004,prompts/02_refined_prompt_opus.md,runs/stage2/opus/essay004.json,tailored prompt with five baked-in rules and Opus-specific emphasis
+2026-04-19T00:00:00-04:00,stage2,opus,claude-opus-4-7,default,essay005,prompts/02_refined_prompt_opus.md,runs/stage2/opus/essay005.json,tailored prompt with five baked-in rules and Opus-specific emphasis
+2026-04-19T00:00:00-04:00,stage2,opus,claude-opus-4-7,default,essay006,prompts/02_refined_prompt_opus.md,runs/stage2/opus/essay006.json,tailored prompt with five baked-in rules and Opus-specific emphasis

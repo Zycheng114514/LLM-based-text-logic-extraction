@@ -1,0 +1,37 @@
+{
+  "components": [
+    {"id": "c1", "type": "MajorClaim", "text": "studying abroad has many advantages"},
+    {"id": "c2", "type": "Claim", "stance": "For", "text": "students who study outside their countries can get a lot of experience living in a foreign country"},
+    {"id": "c3", "type": "Premise", "text": "Living in a new country requires a great amount of flexibility and adaptability in one's character"},
+    {"id": "c4", "type": "Premise", "text": "students might face many challenges in the host country"},
+    {"id": "c5", "type": "Premise", "text": "they should be able to deal with the obstacles that they may encounter"},
+    {"id": "c6", "type": "Premise", "text": "Overcoming problems teaches the students how to be more mature and self-independence"},
+    {"id": "c7", "type": "Claim", "stance": "For", "text": "the new academic experience that the students can obtain at the institution where they are pursuing their studies"},
+    {"id": "c8", "type": "Premise", "text": "they will get exposed to a different educational system"},
+    {"id": "c9", "type": "Premise", "text": "They will meet new professors and new classmates which makes the academic experience different from that in their home country"},
+    {"id": "c10", "type": "Claim", "stance": "For", "text": "Most important is the cultural aspect of the experience"},
+    {"id": "c11", "type": "Premise", "text": "While living in a foreign country, students can learn a lot about the culture of that country"},
+    {"id": "c12", "type": "Premise", "text": "they can meet different people of the country"},
+    {"id": "c13", "type": "Premise", "text": "They can learn about their way of thinking, their customs and traditions, and way of life"},
+    {"id": "c14", "type": "Premise", "text": "Learning about others' cultures is so important"},
+    {"id": "c15", "type": "Premise", "text": "It contributes in building a new understanding in us of how we see the world"},
+    {"id": "c16", "type": "Premise", "text": "It makes us more open, and willing to accept different ideas and thoughts"},
+    {"id": "c17", "type": "Premise", "text": "it educates us about the world we are living in"},
+    {"id": "c18", "type": "MajorClaim", "text": "studying abroad does not only have advantages, but also can change us in a very positive way"}
+  ],
+  "relations": [
+    {"src": "c3", "tgt": "c2", "type": "Support"},
+    {"src": "c4", "tgt": "c2", "type": "Support"},
+    {"src": "c5", "tgt": "c2", "type": "Support"},
+    {"src": "c6", "tgt": "c2", "type": "Support"},
+    {"src": "c8", "tgt": "c7", "type": "Support"},
+    {"src": "c9", "tgt": "c7", "type": "Support"},
+    {"src": "c11", "tgt": "c10", "type": "Support"},
+    {"src": "c12", "tgt": "c10", "type": "Support"},
+    {"src": "c13", "tgt": "c10", "type": "Support"},
+    {"src": "c14", "tgt": "c10", "type": "Support"},
+    {"src": "c15", "tgt": "c14", "type": "Support"},
+    {"src": "c16", "tgt": "c14", "type": "Support"},
+    {"src": "c17", "tgt": "c14", "type": "Support"}
+  ]
+}

@@ -1,0 +1,19 @@
+{"components":[
+  {"id":"T1","type":"MajorClaim","text":"this industry has affected the cultural attributes and damaged the natural environment of the tourist destinations"},
+  {"id":"T2","type":"MajorClaim","text":"the tourism has created threatening pressure on both the sociocultural and natural environments"},
+  {"id":"T3","type":"Claim","stance":"For","text":"it is an undeniable fact that tourists from different cultures will probably cause changes to the cultural identity of the tourist destinations"},
+  {"id":"T4","type":"Premise","text":"in the Vietnam War, many American soldiers came to Thailand for a break and involved in sexual and drug activities, these huge demands caused many local businesses opened and expanded, even illegally involved in under-age prostitutes to maximize their profits"},
+  {"id":"T5","type":"Premise","text":"This was due to the lack of adequate controls by authorities and lead to a bad image of Thailand tourism"},
+  {"id":"T6","type":"Premise","text":"international tourism can create negative impacts on the destination countries"},
+  {"id":"T7","type":"Claim","stance":"For","text":"there are clear evidences that tourism increasingly create harms to the natural habitats of the destination appeals"},
+  {"id":"T8","type":"Premise","text":"the billion visitors per annum has generated immense destruction to this nature wonder, namely breaking the corals caused by walking or throwing boat's anchors, dropping fuel and other sorts of pollutions"},
+  {"id":"T9","type":"Premise","text":"many marine lives have been endangered, in the extremes part of the reef become uninhabitable for these marine species"},
+  {"id":"T10","type":"Premise","text":"it is apparent that tourism has threatened the nature environments"},
+  {"id":"T11","type":"Claim","stance":"Against","text":"the tourism bring large profit for the destination countries"}],
+ "relations":[
+  {"src":"T4","tgt":"T3","type":"Support"},
+  {"src":"T5","tgt":"T3","type":"Support"},
+  {"src":"T6","tgt":"T3","type":"Support"},
+  {"src":"T8","tgt":"T7","type":"Support"},
+  {"src":"T9","tgt":"T7","type":"Support"},
+  {"src":"T10","tgt":"T7","type":"Support"}]}

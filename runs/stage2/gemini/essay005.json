@@ -1,0 +1,24 @@
+{
+  "components": [
+    {"id": "c1", "type": "MajorClaim", "text": "one who studies overseas will gain many skills throughout this experience for several reasons"},
+    {"id": "c2", "type": "Claim", "stance": "For", "text": "studying at an overseas university gives individuals the opportunity to improve social skills by interacting and communicating with students from different origins and cultures"},
+    {"id": "c3", "type": "Premise", "text": "Compared to the peers studying in the home country, it will be more likely for the one who is living overseas to be successful in adapting himself/herself into new environments and situations in life"},
+    {"id": "c4", "type": "Claim", "stance": "For", "text": "living and studying overseas is an irreplaceable experience when it comes to learn standing on your own feet"},
+    {"id": "c5", "type": "Premise", "text": "One who is living overseas will of course struggle with loneliness, living away from family and friends"},
+    {"id": "c6", "type": "Premise", "text": "those difficulties will turn into valuable experiences in the following steps of life"},
+    {"id": "c7", "type": "Premise", "text": "the one will learn living without depending on anyone else"},
+    {"id": "c8", "type": "Premise", "text": "employers are mostly looking for people who have international and language skills"},
+    {"id": "c9", "type": "Premise", "text": "Becoming successful in this study will give the student an edge in job market"},
+    {"id": "c10", "type": "Claim", "stance": "For", "text": "one who has studied and lived overseas will become more eligible for the job than his/her peers"},
+    {"id": "c11", "type": "Claim", "stance": "Against", "text": "there are many difficulties a student might face when studying and living overseas"},
+    {"id": "c12", "type": "MajorClaim", "text": "living and studying overseas gives the individual a new perspective on the subject that is studied or in general life"}
+  ],
+  "relations": [
+    {"src": "c3", "tgt": "c2", "type": "Support"},
+    {"src": "c5", "tgt": "c4", "type": "Attack"},
+    {"src": "c6", "tgt": "c5", "type": "Attack"},
+    {"src": "c7", "tgt": "c4", "type": "Support"},
+    {"src": "c8", "tgt": "c9", "type": "Support"},
+    {"src": "c9", "tgt": "c10", "type": "Support"}
+  ]
+}

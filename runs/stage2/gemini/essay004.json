@@ -1,0 +1,23 @@
+{
+  "components": [
+    {"id": "c1", "type": "Claim", "stance": "Against", "text": "the tourism bring large profit for the destination countries"},
+    {"id": "c2", "type": "MajorClaim", "text": "this industry has affected the cultural attributes and damaged the natural environment of the tourist destinations"},
+    {"id": "c3", "type": "Premise", "text": "tourists from different cultures will probably cause changes to the cultural identity of the tourist destinations"},
+    {"id": "c4", "type": "Premise", "text": "in the Vietnam War, many American soldiers came to Thailand for a break and involved in sexual and drug activities, these huge demands caused many local businesses opened and expanded, even illegally involved in under-age prostitutes to maximize their profits"},
+    {"id": "c5", "type": "Premise", "text": "This was due to the lack of adequate controls by authorities and lead to a bad image of Thailand tourism"},
+    {"id": "c6", "type": "Claim", "stance": "For", "text": "international tourism can create negative impacts on the destination countries"},
+    {"id": "c7", "type": "Premise", "text": "tourism increasingly create harms to the natural habitats of the destination appeals"},
+    {"id": "c8", "type": "Premise", "text": "the billion visitors per annum has generated immense destruction to this nature wonder, namely breaking the corals caused by walking or throwing boat\u2019s anchors, dropping fuel and other sorts of pollutions"},
+    {"id": "c9", "type": "Premise", "text": "many marine lives have been endangered, in the extremes part of the reef become uninhabitable for these marine species"},
+    {"id": "c10", "type": "Claim", "stance": "For", "text": "tourism has threatened the nature environments"},
+    {"id": "c11", "type": "MajorClaim", "text": "the tourism has created threatening pressure on both the sociocultural and natural environments"}
+  ],
+  "relations": [
+    {"src": "c4", "tgt": "c3", "type": "Support"},
+    {"src": "c5", "tgt": "c3", "type": "Support"},
+    {"src": "c3", "tgt": "c6", "type": "Support"},
+    {"src": "c8", "tgt": "c9", "type": "Support"},
+    {"src": "c9", "tgt": "c7", "type": "Support"},
+    {"src": "c7", "tgt": "c10", "type": "Support"}
+  ]
+}

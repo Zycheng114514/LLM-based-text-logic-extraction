@@ -1,0 +1,7 @@
+stage,model,essay,n_pred_comp,n_gold_comp,n_pred_rel,n_gold_rel,comp_p_micro,comp_r_micro,comp_f1_micro,comp_f1_macro,stance_acc,stance_n,rel_p,rel_r,rel_f1
+stage2,opus,essay004,12,11,7,6,0.9167,1.0,0.9565,0.9744,1.0,3,0.4286,0.5,0.4615
+stage2,opus,essay005,12,12,7,6,1.0,1.0,1.0,1.0,1.0,4,0.5714,0.6667,0.6154
+stage2,opus,essay006,18,19,13,13,1.0,0.9474,0.973,0.9524,1.0,3,0.8462,0.8462,0.8462
+stage2,gemini,essay004,11,11,6,6,1.0,1.0,1.0,1.0,1.0,3,0.5,0.5,0.5
+stage2,gemini,essay005,12,12,6,6,1.0,1.0,1.0,1.0,1.0,4,0.8333,0.8333,0.8333
+stage2,gemini,essay006,18,19,13,13,1.0,0.9474,0.973,0.9524,1.0,3,0.6923,0.6923,0.6923
