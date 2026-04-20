@@ -1,6 +1,6 @@
 # Group Assignment II — Task A (Argument Mining)
 
-**Course**: PPOL 5204 Data Science II, Spring 2025
+**Course**: PPOL 5204 Data Science II, Spring 2026
 
 **Assignment**: Group Assignment II, Question 1, Task A — Prompt Engineering
 
@@ -221,7 +221,17 @@ lives in `documents/Task_A_argument_mining.md` and the two `divergence_log.md` f
 
 ## 6. Literature grounding
 
-- Lawrence, J. & Reed, C. (2019). Argument Mining: A Survey. *Computational Linguistics*,
-  45(4). <https://doi.org/10.1162/coli_a_00364>
-- Li, H. et al. (2025). Large Language Models in Argument Mining: A Survey.
-  arXiv:2506.16383. <https://arxiv.org/abs/2506.16383>
+- Jo, Yohan, Jacky Visser, Chris Reed, and Eduard Hovy. "A Cascade Model for Proposition
+  Extraction in Argumentation." *Proceedings of the 6th Workshop on Argument Mining*, 2019,
+  11–24. <https://doi.org/10.18653/v1/W19-4502>.
+- Lawrence, John, and Chris Reed. "Argument Mining: A Survey." *Computational Linguistics*
+  45, no. 4 (2020): 765–818. <https://doi.org/10.1162/coli_a_00364>.
+- Li, Hao, Viktor Schlegel, Yizheng Sun, Riza Batista-Navarro, and Goran Nenadic. "Large
+  Language Models in Argument Mining: A Survey." arXiv:2506.16383. Preprint, arXiv,
+  November 25, 2025. <https://doi.org/10.48550/arXiv.2506.16383>.
+- Peldszus, Andreas. "Towards Segment-Based Recognition of Argumentation Structure in
+  Short Texts." *Proceedings of the First Workshop on Argumentation Mining*, 2014, 88–97.
+  <https://doi.org/10.3115/v1/W14-2112>.
+- Sviridova, Ekaterina, Elena Cabrio, and Serena Villata. "Mining Implicit Arguments for
+  Reasoning: A Survey." *Argument & Computation* 17, no. 1 (2026): 3–27.
+  <https://doi.org/10.1177/19462174251344764>.
